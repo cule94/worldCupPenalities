@@ -1,0 +1,45 @@
+#scoreboard {
+  margin-top: 400px;
+  height: 150px;
+  color: white;
+  font-size: 20px;
+  float: right;
+  border-style: double;
+  width: 30%;
+  background: linear-gradient(
+    90deg,
+    rgba(36, 13, 136, 1) 36%,
+    rgba(70, 24, 139, 1) 62%,
+    rgba(145, 92, 223, 1) 88%
+  );
+}
+#team1,
+#team2 {
+  text-align: right;
+}
+
+#scoreboardText {
+  text-align: center;
+  font-size: 15px;
+}
+#names {
+  float: left;
+  margin-left: 5%;
+  font-size: 20px;
+}
+#results {
+  float: left;
+  margin-left: 5%;
+  font-size: 20px;
+}
+#lights {
+  float: left;
+  margin-left: 3%;
+  font-size: 20px;
+}
+#indicator {
+  float: left;
+  margin-left: 5%;
+  color: yellow;
+  visibility: hidden;
+}

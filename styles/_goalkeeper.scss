@@ -1,0 +1,56 @@
+.goalkeeper {
+  float: left;
+  margin-top: 12%;
+  margin-left: 41%;
+}
+.LeftUp {
+  animation: keeper 1s;
+  float: left;
+  margin-top: 6%;
+  margin-left: 28%;
+  transform: rotate(-60deg);
+}
+.LeftDown {
+  animation: keeper 1s;
+  float: left;
+  margin-top: 18%;
+  margin-left: 28%;
+  transform: rotate(-90deg);
+}
+.RightUp {
+  animation: keeper 1s;
+  float: left;
+  margin-top: 6%;
+  margin-left: 53%;
+  transform: rotate(65deg);
+}
+.RightDown {
+  animation: keeper 1s;
+  float: left;
+  margin-top: 18%;
+  margin-left: 51%;
+  transform: rotate(90deg);
+}
+@keyframes keeper {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  33% {
+    opacity: 0.33;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  66% {
+    opacity: 0.66;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  99% {
+    opacity: 0.99;
+  }
+}

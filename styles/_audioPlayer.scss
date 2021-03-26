@@ -1,0 +1,67 @@
+.audioPlayer {
+  animation: player 1s;
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+  position: absolute;
+  border-radius: 10px 10px 10px 10px;
+  width: 250px;
+  text-align: center;
+  background-color: silver;
+}
+#playerTitle {
+  color: black;
+  text-align: left;
+  margin-left: 10%;
+}
+
+@keyframes player {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  10% {
+    opacity: 0.1;
+    width: 25px;
+  }
+  20% {
+    opacity: 0.2;
+    width: 50px;
+  }
+
+  30% {
+    opacity: 0.3;
+    width: 75px;
+  }
+  40% {
+    opacity: 0.4;
+    width: 100px;
+  }
+
+  50% {
+    opacity: 0.5;
+    width: 125px;
+  }
+  60% {
+    opacity: 0.6;
+    width: 150px;
+  }
+  70% {
+    opacity: 0.7;
+    width: 175px;
+  }
+
+  80% {
+    opacity: 0.8;
+    width: 200px;
+  }
+  90% {
+    opacity: 0.9;
+    width: 225px;
+  }
+
+  99% {
+    opacity: 0.99;
+    width: 250px;
+  }
+}

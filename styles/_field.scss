@@ -1,0 +1,22 @@
+#row-teren {
+  width: 1112px;
+  margin-top: 2%;
+  height: 570px;
+  margin-left: 2%;
+  border-style: double;
+  background: url(../img/body2.png);
+  background-size: cover;
+  float: left;
+}
+#ball {
+  top: 450px;
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 36%;
+  width: fit-content;
+  float: left;
+
+  #ballPoint {
+    position: absolute;
+  }
+}

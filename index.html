@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>WCP2021</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/styles.css" />
+  </head>
+  <body>
+      <div class="topText">
+        <p><b> Your PC will be the opposing team.</b></p>
+        <p style="color: white"><b> You are:</b></p>
+      </div>
+    </div>
+    <div class="playerSelection" id="playerSelection">
+      <img src="img/comands/backMini.png" id="playerBack" />
+      <p id="playerSelectionFront"><b> Select</b></p>
+      <img src="img/comands/forwMini.png" id="playerForw" />
+    </div>
+    <div class="row"></div>
+    <div class="selectTeams" id="selectTeams">
+      <div class="homeTeam" id="homeTeam">
+        <div class="sliderLeft">
+          <img src="img/comands/back.png" id="homeBack" />
+        </div>
+        <div class="main">
+          <h3 style="text-align: center">Select home team</h3>
+          <img src="" id="flagHome" />
+          <p id="selectedHomeTeam"><b> team1</b></p>
+        </div>
+        <div class="sliderRight">
+          <img src="img/comands/forw.png" id="homeForw" />
+        </div>
+      </div>
+
+      <div class="awayTeam" id="awayTeam">
+        <div class="sliderLeft">
+          <img src="img/comands/back.png" id="awayBack" />
+        </div>
+        <div class="main">
+          <h3 style="text-align: center">Select away team</h3>
+          <img src="" id="flagAway" />
+          <p id="selectedAwayTeam"><b> team2</b></p>
+        </div>
+        <div class="sliderRight">
+          <img src="img/comands/forw.png" id="awayForw" />
+        </div>
+      </div>
+    </div>
+
+    <button id="rndTeams">Select random teams</button>
+    <div class = "audioPlayer"> 
+      <p id = playerTitle> <b> Now playing...</b></p>
+      <p id = "soundName"> Name: </p>
+      <p id = "soundArtist"> Owner: </p>
+      <p id = "soundCountry"> Country: </p>
+      <p id = "soundYear"> Year: </p>
+    </div>
+    <div class="stageCommand" id="stageCommand">
+      <img src="img/comands/backMini.png" id="backMini" />
+      <p id="stageFront"><b> Group stage</b></p>
+      <img src="img/comands/forwMini.png" id="forwMini" />
+    </div>
+    <div class="confirmTeams" id="confirmTeams">
+      <img src="img/comands/play.png" id="confirmButton" />
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

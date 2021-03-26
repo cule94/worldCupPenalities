@@ -1,0 +1,23 @@
+.trophySet {
+  margin-left: 3%;
+  height: fit-content;
+  background-size: cover;
+  width: fit-content;
+  visibility: hidden;
+  float: left;
+}
+
+#table {
+  width: 40px;
+}
+#level {
+  display: inline;
+  color: white;
+  height: auto;
+}
+.celebration {
+  float: left;
+  margin-top: 30%;
+  margin-left: 25%;
+  transform: rotate(0deg);
+}
